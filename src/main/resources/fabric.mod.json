@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "id": "soaring-clouds",
+  "version": "${version}",
+  "name": "Soaring Clouds",
+  "description": "Allows you to configure the height of clouds in the world.",
+  "authors": [
+    "Draylar"
+  ],
+  "license": "CC0-1.0",
+  "icon": "assets/soaring-clouds/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "draylar.soaringclouds.SoaringCloudsClient"
+    ]
+  },
+  "mixins": [
+    "soaring-clouds.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.8.7+build.201",
+    "fabric": "*",
+    "minecraft": ">=1.15.2"
+  }
+}

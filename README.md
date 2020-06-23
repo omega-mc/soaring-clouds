@@ -2,7 +2,7 @@
 
 I always disliked how low clouds rendered in Minecraft, so I made a simple utility mod that allows you to pick whatever cloud height you want!
 
-1.15.2, Fabric mod loader.
+Requires the Fabric mod loader.
 
 ### Configuration
 `config/soaring-clouds.json5`

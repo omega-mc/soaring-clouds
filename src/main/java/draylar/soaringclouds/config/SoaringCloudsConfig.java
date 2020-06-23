@@ -3,7 +3,6 @@ package draylar.soaringclouds.config;
 import me.sargunvohra.mcmods.autoconfig1u.ConfigData;
 import me.sargunvohra.mcmods.autoconfig1u.annotation.Config;
 import me.sargunvohra.mcmods.autoconfig1u.shadowed.blue.endless.jankson.Comment;
-import net.minecraft.util.registry.Registry;
 import net.minecraft.world.dimension.DimensionType;
 
 import java.util.HashMap;
@@ -17,7 +16,7 @@ public class SoaringCloudsConfig implements ConfigData {
 
     public static Map<String, Integer> create() {
         HashMap<String, Integer> map = new HashMap<>();
-        map.put(Registry.DIMENSION_TYPE.getId(DimensionType.OVERWORLD).toString(), 200);
+        map.put(DimensionType.OVERWORLD_REGISTRY_KEY.getValue().toString(), 200);
         return map;
     }
 }

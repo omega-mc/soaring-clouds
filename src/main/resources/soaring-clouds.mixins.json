@@ -3,6 +3,7 @@
   "package": "draylar.soaringclouds.mixin",
   "compatibilityLevel": "JAVA_8",
   "client": [
+    "VideoOptionsScreenMixin",
     "WorldRendererMixin"
   ],
   "injectors": {

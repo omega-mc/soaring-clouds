@@ -35,4 +35,4 @@ Requires the Fabric mod loader.
 
 ### License
 
-This project is CC0-1.0. 
+This project is under the MIT license. 
